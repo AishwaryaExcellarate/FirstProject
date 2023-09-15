@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [OrangeHrmTest Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="OrangeHrmSoftwareTest(failed)">
+    <classes>
+      <class name="ORANGEHRM.OrangeHrmTestCase">
+        <methods>
+          <include name="orangehrmtestcase"/>
+          <include name="launchApplication"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- ORANGEHRM.OrangeHrmTestCase -->
+      <class name="ORANGEHRM.EndToEndTesting">
+        <methods>
+          <include name="enttoendtesting"/>
+        </methods>
+      </class> <!-- ORANGEHRM.EndToEndTesting -->
+    </classes>
+  </test> <!-- OrangeHrmSoftwareTest(failed) -->
+</suite> <!-- Failed suite [OrangeHrmTest Suite] -->
