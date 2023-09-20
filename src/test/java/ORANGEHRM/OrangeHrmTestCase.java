@@ -27,6 +27,7 @@ public class OrangeHrmTestCase extends BaseTest
 		emppage.EnterEmployeeDetails(firstname, middlename, lastname, empid);
 		emppage.ClickOnUploadbtn();
 		emppage.ClickOnSavebtn();
+		System.out.println(" ************ ");
 		System.out.println("File uploaded successgully");
 		
 
