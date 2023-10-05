@@ -1,31 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-14T13:53:59 IST" name="Suite" finished-at="2023-09-14T13:54:45 IST" duration-ms="46593">
+  <suite started-at="2023-10-05T11:37:57 IST" name="Suite" finished-at="2023-10-05T11:39:08 IST" duration-ms="70964">
     <groups>
     </groups>
-    <test started-at="2023-09-14T13:53:59 IST" name="Regression" finished-at="2023-09-14T13:54:45 IST" duration-ms="46593">
+    <test started-at="2023-10-05T11:37:57 IST" name="Test" finished-at="2023-10-05T11:39:08 IST" duration-ms="70964">
       <class name="ORANGEHRM.OrangeHrmTestCase">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ORANGEHRM.OrangeHrmTestCase@3a44431a]" started-at="2023-09-14T13:54:31 IST" name="launchApplication" finished-at="2023-09-14T13:54:36 IST" duration-ms="4101" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ORANGEHRM.OrangeHrmTestCase@194bcebf]" started-at="2023-10-05T11:38:53 IST" name="launchApplication" finished-at="2023-10-05T11:38:56 IST" duration-ms="2747" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="orangehrmtestcase()[pri:0, instance:ORANGEHRM.OrangeHrmTestCase@3a44431a]" started-at="2023-09-14T13:54:36 IST" name="orangehrmtestcase" finished-at="2023-09-14T13:54:45 IST" duration-ms="9454" status="PASS">
+        <test-method signature="orangehrmtestcase()[pri:0, instance:ORANGEHRM.OrangeHrmTestCase@194bcebf]" started-at="2023-10-05T11:38:56 IST" name="orangehrmtestcase" finished-at="2023-10-05T11:39:07 IST" duration-ms="11688" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- orangehrmtestcase -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:ORANGEHRM.OrangeHrmTestCase@3a44431a]" started-at="2023-09-14T13:54:45 IST" name="closeBrowser" finished-at="2023-09-14T13:54:45 IST" duration-ms="251" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:ORANGEHRM.OrangeHrmTestCase@194bcebf]" started-at="2023-10-05T11:39:07 IST" name="closeBrowser" finished-at="2023-10-05T11:39:08 IST" duration-ms="264" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- ORANGEHRM.OrangeHrmTestCase -->
       <class name="ORANGEHRM.EndToEndTesting">
-        <test-method signature="enttoendtesting()[pri:0, instance:ORANGEHRM.EndToEndTesting@5d7148e2]" started-at="2023-09-14T13:53:59 IST" name="enttoendtesting" finished-at="2023-09-14T13:54:31 IST" duration-ms="32745" status="PASS">
+        <test-method signature="enttoendtesting()[pri:0, instance:ORANGEHRM.EndToEndTesting@25fb8912]" started-at="2023-10-05T11:37:57 IST" name="enttoendtesting" finished-at="2023-10-05T11:38:39 IST" duration-ms="42104" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enttoendtesting -->
       </class> <!-- ORANGEHRM.EndToEndTesting -->
-    </test> <!-- Regression -->
+      <class name="ORANGEHRM.TestCase2EndToEnd">
+        <test-method signature="enttoendtesting()[pri:0, instance:ORANGEHRM.TestCase2EndToEnd@3ee37e5a]" started-at="2023-10-05T11:38:39 IST" name="enttoendtesting" finished-at="2023-10-05T11:38:53 IST" duration-ms="14127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enttoendtesting -->
+      </class> <!-- ORANGEHRM.TestCase2EndToEnd -->
+    </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

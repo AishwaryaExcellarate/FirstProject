@@ -28,6 +28,8 @@ public class OrangeHrmTestCase extends BaseTest
 		emppage.ClickOnUploadbtn();
 		emppage.ClickOnSavebtn();
 		System.out.println(" ************ ");
+		System.out.println(" ************ ");
+		
 		System.out.println("File uploaded successgully");
 		
 

@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ORANGEHRM.EndToEndTesting">
+      <class name="ORANGEHRM.TestCase2EndToEnd">
         <methods>
           <include name="enttoendtesting"/>
         </methods>
-      </class> <!-- ORANGEHRM.EndToEndTesting -->
+      </class> <!-- ORANGEHRM.TestCase2EndToEnd -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
