@@ -62,7 +62,7 @@ public class EndToEndTesting
 	     
 	     r.keyPress(KeyEvent.VK_ENTER);
 	     r.keyRelease(KeyEvent.VK_ENTER);
-	     
+	     System.out.println(" ***** ");
 	     System.out.println("File uploaded successgully");
 		 
 		driver.findElement(By.xpath("//button[@type='submit']")).click();
