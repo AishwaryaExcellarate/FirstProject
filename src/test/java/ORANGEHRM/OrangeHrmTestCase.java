@@ -9,7 +9,7 @@ import TestComponents.BaseTest;
 public class OrangeHrmTestCase extends BaseTest
 {
 
-	@Test( )
+	@Test
 	public void orangehrmtestcase() 
 	{
 		String Username="Admin";

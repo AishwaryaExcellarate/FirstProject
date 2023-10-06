@@ -50,8 +50,7 @@ public class TestCase2EndToEnd
 	     r.keyPress(KeyEvent.VK_ENTER);
 	     r.keyRelease(KeyEvent.VK_ENTER);
 	     System.out.println("File uploaded successfull");
-
-			driver.quit();
+         driver.quit();
    }
         
 	
