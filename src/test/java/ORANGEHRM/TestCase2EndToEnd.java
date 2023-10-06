@@ -49,7 +49,10 @@ public class TestCase2EndToEnd
 	     
 	     r.keyPress(KeyEvent.VK_ENTER);
 	     r.keyRelease(KeyEvent.VK_ENTER);
+	     driver.findElement(By.xpath("//button[contains(.,'Save')]")).click();
+	     
 	     System.out.println("File uploaded successfull");
+	     
          driver.quit();
    }
         

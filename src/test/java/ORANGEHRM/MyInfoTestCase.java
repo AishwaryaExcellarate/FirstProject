@@ -33,6 +33,7 @@ public class MyInfoTestCase extends BaseTest
 		ipage.ClickOnInfobtn();
 		ipage.ChangeProfile();
 		ipage.ClickOnSelecticon();
+		ipage.ClickOnSavebtn();
 		System.out.println("File uploaded successfull");
          
    }

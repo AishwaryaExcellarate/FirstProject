@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-06T11:32:25 IST" name="Default suite" finished-at="2023-10-06T11:32:44 IST" duration-ms="18974">
+  <suite started-at="2023-10-06T12:44:08 IST" name="Default suite" finished-at="2023-10-06T12:44:23 IST" duration-ms="14695">
     <groups>
     </groups>
-    <test started-at="2023-10-06T11:32:25 IST" name="Default test" finished-at="2023-10-06T11:32:44 IST" duration-ms="18974">
+    <test started-at="2023-10-06T12:44:08 IST" name="Default test" finished-at="2023-10-06T12:44:23 IST" duration-ms="14695">
       <class name="ORANGEHRM.MyInfoTestCase">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ORANGEHRM.MyInfoTestCase@25fb8912]" started-at="2023-10-06T11:32:25 IST" name="launchApplication" finished-at="2023-10-06T11:32:34 IST" duration-ms="9116" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ORANGEHRM.MyInfoTestCase@74751b3]" started-at="2023-10-06T12:44:08 IST" name="launchApplication" finished-at="2023-10-06T12:44:13 IST" duration-ms="4989" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="enttoendtesting()[pri:0, instance:ORANGEHRM.MyInfoTestCase@25fb8912]" started-at="2023-10-06T11:32:34 IST" name="enttoendtesting" finished-at="2023-10-06T11:32:43 IST" duration-ms="9512" status="PASS">
+        <test-method signature="enttoendtesting()[pri:0, instance:ORANGEHRM.MyInfoTestCase@74751b3]" started-at="2023-10-06T12:44:13 IST" name="enttoendtesting" finished-at="2023-10-06T12:44:22 IST" duration-ms="9402" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enttoendtesting -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:ORANGEHRM.MyInfoTestCase@25fb8912]" started-at="2023-10-06T11:32:43 IST" name="closeBrowser" finished-at="2023-10-06T11:32:44 IST" duration-ms="309" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:ORANGEHRM.MyInfoTestCase@74751b3]" started-at="2023-10-06T12:44:22 IST" name="closeBrowser" finished-at="2023-10-06T12:44:23 IST" duration-ms="255" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->

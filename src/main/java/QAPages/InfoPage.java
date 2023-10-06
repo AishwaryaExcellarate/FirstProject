@@ -6,6 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import ComponentsPage.AbstractComponent;
+import net.bytebuddy.asm.MemberSubstitution.FieldValue;
 
 public class InfoPage extends AbstractComponent
 {
@@ -29,6 +30,9 @@ public class InfoPage extends AbstractComponent
 		@FindBy(xpath = "//i[@class='oxd-icon bi-plus']")
 		WebElement imgselecticon;
 		
+		@FindBy(xpath = "//button[contains(.,'Save')]")
+		WebElement savebtn;
+		
 		public void ClickOnInfobtn()
 		{
 			infobtn.click();
@@ -41,5 +45,10 @@ public class InfoPage extends AbstractComponent
 		{
 			imgselecticon.click();
 		}
+		public void ClickOnSavebtn()
+		{
+			savebtn.click();
+		}
+			
 
 }
