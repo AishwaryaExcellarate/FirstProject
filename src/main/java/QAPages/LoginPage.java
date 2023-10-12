@@ -21,16 +21,16 @@ public class LoginPage extends AbstractComponent
 		driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
 	}
 	
-	@FindBy(xpath = "//input[@placeholder='Username']")
+	@FindBy(name = "username")
 	WebElement UserNameEdt;
 	
-	@FindBy(xpath = "//input[@placeholder='Password']")
+	@FindBy(name = "password")
 	WebElement PassWordEdt;
 	
-	@FindBy(xpath="//button[@type='submit']")
+	@FindBy(xpath="//button[text()=' Login ']")
 	WebElement LoginBtn;
 	
-	@FindBy(xpath="//p[contains(.,'Invalid credentials')]")
+	@FindBy(xpath="//p[@class='oxd-text oxd-text--p oxd-alert-content-text']")
 	WebElement errormsg;
 	
 	public EmployeesPage loginApplication(String Username,String Password)
