@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ORANGEHRM.TestCase2EndToEnd">
+      <class name="ORANGEHRM.AdminmoduleTestCase">
         <methods>
+          <include name="launchApplication"/>
+          <include name="closeBrowser"/>
           <include name="enttoendtesting"/>
         </methods>
-      </class> <!-- ORANGEHRM.TestCase2EndToEnd -->
+      </class> <!-- ORANGEHRM.AdminmoduleTestCase -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,4 +1,4 @@
-package ORANGEHRM;
+package EndToEndTestcase;
 
 import java.awt.AWTException;
 import java.awt.Robot;

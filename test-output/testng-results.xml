@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-06T12:44:08 IST" name="Default suite" finished-at="2023-10-06T12:44:23 IST" duration-ms="14695">
+  <suite started-at="2023-10-12T13:21:33 IST" name="Default suite" finished-at="2023-10-12T13:21:47 IST" duration-ms="14215">
     <groups>
     </groups>
-    <test started-at="2023-10-06T12:44:08 IST" name="Default test" finished-at="2023-10-06T12:44:23 IST" duration-ms="14695">
-      <class name="ORANGEHRM.MyInfoTestCase">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ORANGEHRM.MyInfoTestCase@74751b3]" started-at="2023-10-06T12:44:08 IST" name="launchApplication" finished-at="2023-10-06T12:44:13 IST" duration-ms="4989" status="PASS">
+    <test started-at="2023-10-12T13:21:33 IST" name="Default test" finished-at="2023-10-12T13:21:47 IST" duration-ms="14215">
+      <class name="ORANGEHRM.AdminmoduleTestCase">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ORANGEHRM.AdminmoduleTestCase@25fb8912]" started-at="2023-10-12T13:21:33 IST" name="launchApplication" finished-at="2023-10-12T13:21:38 IST" duration-ms="4656" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="enttoendtesting()[pri:0, instance:ORANGEHRM.MyInfoTestCase@74751b3]" started-at="2023-10-06T12:44:13 IST" name="enttoendtesting" finished-at="2023-10-06T12:44:22 IST" duration-ms="9402" status="PASS">
+        <test-method signature="enttoendtesting()[pri:0, instance:ORANGEHRM.AdminmoduleTestCase@25fb8912]" started-at="2023-10-12T13:21:38 IST" name="enttoendtesting" finished-at="2023-10-12T13:21:47 IST" duration-ms="9187" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enttoendtesting -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:ORANGEHRM.MyInfoTestCase@74751b3]" started-at="2023-10-06T12:44:22 IST" name="closeBrowser" finished-at="2023-10-06T12:44:23 IST" duration-ms="255" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:ORANGEHRM.AdminmoduleTestCase@25fb8912]" started-at="2023-10-12T13:21:47 IST" name="closeBrowser" finished-at="2023-10-12T13:21:47 IST" duration-ms="324" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- ORANGEHRM.MyInfoTestCase -->
+      </class> <!-- ORANGEHRM.AdminmoduleTestCase -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

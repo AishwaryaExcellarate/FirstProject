@@ -29,6 +29,7 @@ public class MyInfoTestCase extends BaseTest
 		LoginPage lp=new LoginPage(driver);
 		lp.gotoUrl();
 		lp.loginApplication(Username, Password);
+		
 		InfoPage ipage=new InfoPage(driver);
 		ipage.ClickOnInfobtn();
 		ipage.ChangeProfile();
